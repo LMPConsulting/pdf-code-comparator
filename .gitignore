@@ -1,3 +1,5 @@
+# Falls .gitignore nicht hochgeladen wird, erstellen Sie eine neue Datei namens ".gitignore" mit folgendem Inhalt:
+
 # Python
 __pycache__/
 *.py[cod]
@@ -60,11 +62,6 @@ comparison_result.xlsx
 # Temporary files
 tmp_*
 temp_*
-
-# OCR models cache
-.easyocr/
-config/easyocr_models/
-*.pth
 
 # Executables
 *.exe
