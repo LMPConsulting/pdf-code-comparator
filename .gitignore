@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+debug_ocr_text/
+temp_*.png
+*.log
+
+# Large files
+config/master_codes.xlsx
+config/easyocr_models/
+*.pth
+
+# Test files
+test_*.pdf
+sample_*.pdf
+
+# Reports
+*_Report_*.xlsx
+comparison_result.xlsx
+
+# Temporary files
+tmp_*
+temp_*
+
+# OCR models cache
+.easyocr/
+config/easyocr_models/
+*.pth
+
+# Executables
+*.exe
+main.spec
+dist/
+build/
